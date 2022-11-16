@@ -1,7 +1,7 @@
 image: openjdk:1.8-jdk #Menentukan Docker Image
 
 variables:
-  ANDROID_COMPILE_SDK: "32" #set compile SDK version //32
+  ANDROID_COMPILE_SDK: "32" #set compile SDK version //32 //
   ANDROID_BUILD_TOOLS: "33.0.0" #set build tool version //30.0.0
   ANDROID_SDK_TOOLS:  "7583922" #set SDK tool build number kita dapat mencari tahunya di sini https://developer.android.com/studio/releases/sdk-tools //4333796
 
