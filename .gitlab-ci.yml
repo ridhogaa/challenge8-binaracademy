@@ -29,8 +29,7 @@ stages:
   - build_release_android
 
 build_release_android:
-  stage:
-    - build_release_android
+  stage: build_release_android
   script:
     - ./gradlew lint
     - ./gradlew build
