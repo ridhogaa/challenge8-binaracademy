@@ -35,7 +35,7 @@ build_release_android:
     - ./gradlew lint
     - ./gradlew build
   only:
-    - main
+    - master
   artifacts:
     paths:
       - ./app/build/outputs/
