@@ -12,7 +12,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class DetailFragment : Fragment() {
-
+    // test comment
     private val viewModel: DetailViewModel by activityViewModels()
     private var _binding: FragmentDetailBinding? = null
     private val binding get() = _binding!!
