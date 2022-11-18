@@ -9,7 +9,7 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('C:\\Users\\ridhogymnastiar\\Downloads\\challenge8-binaracademy\\app\\ch8.jks')
+            storeFile file('E:\\deploy-app-googleplay\\challenge8\\ch8.jks')
             storePassword '123456'
             keyAlias 'key0'
             keyPassword '123456'
