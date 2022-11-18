@@ -43,6 +43,10 @@ android {
     viewBinding {
         enabled = true
     }
+
+    lint{
+
+    }
 }
 
 dependencies {
