@@ -18,7 +18,7 @@ class HomeMovieAdapter(private val movies: List<ResultMovies>) :
     class MyViewHolder(private val binding: MovieListBinding) :
         RecyclerView.ViewHolder(binding.root) {
         private val imageBaseUrl = "https://image.tmdb.org/t/p/w500/"
-        val i = ""
+
         @SuppressLint("SetTextI18n")
         fun bind(listData: ResultMovies) {
             binding.titleMovie.text = listData.title
